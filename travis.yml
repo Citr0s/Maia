@@ -1,0 +1,9 @@
+language: csharp
+solution: Maia.sln
+
+notifications:
+  email: false
+  webhooks:
+    urls:
+      - https://ci02.miloszdura.com/api/deploy/maia
+    on_success: always
